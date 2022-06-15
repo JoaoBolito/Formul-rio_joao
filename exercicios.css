@@ -1,0 +1,44 @@
+.flex{
+  display: flex;
+  flex-direction: row;
+}
+
+.title{
+  text-align: center;
+  position: relative;
+  }
+
+
+.title::before{
+  content: "";
+  display: block;
+  width: 40px;
+  height: 4px;
+  background: #e76a0e;
+  position: absolute;
+  top: 32px;
+  border-radius: 4px;
+  margin: 0 0 0 40px;
+}
+
+.name{
+  margin: 0 5px 5px 5px;
+}
+
+.serie{
+  margin: 0 5px 5px 5px;
+}
+
+.idade{
+  margin: 0 5px 5px 5px;
+}
+
+.informacoes{  
+  border: 5px solid #560000 ;
+  margin: 20px;
+}
+
+
+.botao{
+  margin: 0 0 20px 20px;
+}
